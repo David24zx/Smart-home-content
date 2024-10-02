@@ -43,6 +43,10 @@ nav#main-nav {
     background-image: url(Rural.png);
 }
 
+#hero-models {
+    background-image:url(min.png);
+}
+
 .hero-content {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
