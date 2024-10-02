@@ -22,9 +22,33 @@ body {
     background-color: darkgray;
 }
 
-nav#main-nav {
-
+.navbar {
+    background-color: #333; 
+    padding: 10px; 
 }
+
+.nav-list {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+.nav-list li {
+    margin-right: 20px; 
+}
+
+.nav-list li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 8px 16px; 
+}
+
+.nav-list li a:hover {
+    background-color: #575757; 
+    border-radius: 4px; 
+}
+
 
 #hero {
     width: 100%;
@@ -33,6 +57,7 @@ nav#main-nav {
     align-items: center;
     background-size: cover;
     height: 40vh;
+    background-repeat: no-repeat;
 }
 
 #hero.home {
@@ -43,8 +68,9 @@ nav#main-nav {
     background-image: url(Rural.png);
 }
 
-#hero-models {
+#hero.models {
     background-image:url(min.png);
+    
 }
 
 .hero-content {
@@ -62,4 +88,11 @@ nav#main-nav {
 .flex {
     display: flex;
     flex-flow: row wrap;
+}
+
+.bald {
+    background-color: rgba(128, 102, 102, 0.8);
+    padding: 1em;
+    color: rgb(0, 0, 0);
+
 }
