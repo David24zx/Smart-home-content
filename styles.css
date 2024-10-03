@@ -115,8 +115,9 @@ body {
 
 .bald {
     background-color: rgba(128, 102, 102, 0.8);
-    padding: 2em;
+    padding: 2.3em;
     color: rgb(0, 0, 0);
+    font-size: larger;
 
 }
 
@@ -124,5 +125,5 @@ body {
     width: 300px;
     float: right;
     padding-right: auto;
-    padding-top: 18px;
+    padding-top: 23px;
 }
