@@ -23,30 +23,31 @@ body {
 }
 
 .navbar {
-    background-color: #333; 
-    padding: 10px; 
+    background-color: #333;
+    padding: 10px;
 }
 
 .nav-list {
-    list-style-type: none; 
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Use flexbox for horizontal layout */
+    display: flex;
+    /* Use flexbox for horizontal layout */
 }
 
 .nav-list li {
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .nav-list li a {
-    color: white; 
-    text-decoration: none; 
-    padding: 8px 16px; 
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
 }
 
 .nav-list li a:hover {
-    background-color: #575757; 
-    border-radius: 4px; 
+    background-color: #575757;
+    border-radius: 4px;
 }
 
 
@@ -62,15 +63,37 @@ body {
 
 #hero.home {
     background-image: url(fhouse.png);
+    animation: changeBg 12s infinite;
 }
+
+@keyframes changeBg {
+    0% {
+        background-image: url(fhouse.png);
+    }
+
+    33% {
+        background-image: url(min2.png);
+    }
+
+    66% {
+        background-image: url(eco.png);
+    }
+
+    100% {
+        background-image: url(fhouse.png);
+    }
+}
+
+
+
 
 #hero.about {
     background-image: url(Rural.png);
 }
 
 #hero.models {
-    background-image:url(min.png);
-    
+    background-image: url(min.png);
+
 }
 
 .hero-content {
@@ -92,7 +115,14 @@ body {
 
 .bald {
     background-color: rgba(128, 102, 102, 0.8);
-    padding: 1em;
+    padding: 2em;
     color: rgb(0, 0, 0);
 
+}
+
+.image-right {
+    width: 300px;
+    float: right;
+    padding-right: auto;
+    padding-top: 18px;
 }
