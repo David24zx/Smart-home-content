@@ -154,9 +154,18 @@ body {
 
 }
 footer {
-    color: black;
-   background-color:rgba(128, 102,102, 0.8);\
-
+    display: flex;
+    background-color: rgba(128, 102,102, 0.8);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+    list-style: none; 
+}
+a {
+    color:black;
+    margin: 0 10px;
+    text-decoration: none;
+    
 }
 
 .no-bullets {
@@ -182,4 +191,15 @@ section.section-head {
 
 .content {
     padding: 1em;
+}
+
+.herbert {
+    background-color: rgba(128, 102, 102, 0.8);
+    padding: 2.0em;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+.add {
+    margin-right: 1em;
 }
