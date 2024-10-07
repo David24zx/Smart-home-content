@@ -21,9 +21,21 @@ img {
     font-style: normal;
 }
 
+section.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+section.col.half {
+    width: 48%;
+    
+}
+
 
 body {
     background-color: darkgray;
+    
 }
 
 .navbar {
@@ -203,3 +215,8 @@ section.section-head {
 .add {
     margin-right: 1em;
 }
+
+.mm3 {
+    width: 350px;
+}
+
