@@ -21,9 +21,21 @@ img {
     font-style: normal;
 }
 
+section.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+section.col.half {
+    width: 48%;
+    
+}
+
 
 body {
     background-color: darkgray;
+    
 }
 
 .navbar {
@@ -159,6 +171,18 @@ footer {
    color: black;
    text-align: center;
 
+    display: flex;
+    background-color: rgba(128, 102,102, 0.8);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+    list-style: none; 
+}
+a {
+    color:black;
+    margin: 0 10px;
+    text-decoration: none;
+    
 }
 
 footer .row{
@@ -233,3 +257,19 @@ section.section-head {
 .content {
     padding: 1em;
 }
+
+.herbert {
+    background-color: rgba(128, 102, 102, 0.8);
+    padding: 2.0em;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+.add {
+    margin-right: 1em;
+}
+
+.mm3 {
+    width: 350px;
+}
+
