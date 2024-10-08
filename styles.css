@@ -229,10 +229,6 @@ footer .row a{
     margin:0% 3%;
     }
     
-
-    
-    
-
 .no-bullets {
     list-style-type: none;
     padding-left: 0;
@@ -264,6 +260,7 @@ section.section-head {
     color: rgb(0, 0, 0);
     font-size: large;
 }
+
 
 .add {
     margin-right: 1em;
