@@ -21,15 +21,15 @@ img {
     font-style: normal;
 }
 
-section.row {
+section.roww {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin: auto;
 }
 
 section.col.half {
     width: 48%;
-    
 }
 
 
@@ -268,5 +268,75 @@ section.section-head {
 
 .mm3 {
     width: 350px;
+}
+
+.row {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.row.full {
+    width: 100vw;
+}
+
+.quarters article {
+    width: 23%;
+}
+
+.thirds article {
+    width: 30%;
+}
+
+.twothirds article:first-child {
+    width: 64%;
+}
+
+.twothirds article:last-child {
+    width: 32%;
+}
+
+.halves article {
+    width: 48%;
+}
+
+.cards article,
+.card {
+    box-shadow: 0 3px 5px rgba(0,0,0,0.33);
+    border: solid 1px black;
+    background-color: rgba(128, 102, 102, 0.8);
+    border-radius: 1rem 0 1rem;
+}
+
+.cards article img,
+.card img {
+    border-radius: 1rem 0 0 0;
+    border: none;
+}
+
+.cards article h2,
+.cards article h3,
+.cards article p,
+.card h2,
+.card h3,
+.card p {
+    padding: 0 1rem;
+    
+}
+
+.cards article a,
+.card a {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+}
+
+.cards .button,
+.card .button {
+    border-radius: 1rem 0 1rem ;
 }
 
