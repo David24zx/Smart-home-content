@@ -1,0 +1,58 @@
+#additionals {
+    background-color: rgba(128, 102, 102, 0.8);
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+}
+
+
+:root {
+    background-color:rgba(128, 102, 102, 0.8);
+}
+
+p {
+    background-color: rgba(128, 102, 102, 0.8);
+    padding: 2.3em;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+
+.henry {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.gary {
+padding:1em;
+
+}
+
+.bob {
+width: 50%;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.iamw {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    width: 50%;
+}
