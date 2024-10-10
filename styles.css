@@ -141,7 +141,7 @@ body {
     background-color: rgba(128, 102, 102, 0.8);
     padding: 2.3em;
     color: rgb(0, 0, 0);
-    font-size: medium;
+    font-size: large;
     display: flex;
     flex-direction: row-reverse;
 }
