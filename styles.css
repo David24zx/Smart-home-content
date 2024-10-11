@@ -1,4 +1,4 @@
-/* Import Source Sans 3 from Google Fonts */
+/*Import Source Sans 3 from Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 :root {
@@ -400,4 +400,20 @@ section.section-head {
 
 .iuh {
     margin-left: 1em;
+}
+
+.next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10%;
+    /* margin-left: 50%; */
+}
+
+.next-button:hover {
+    background-color: #281212;
 }

@@ -5,8 +5,6 @@
     flex-flow: row wrap;
 }
 
-
-
 * {
     box-sizing: border-box;
 }
@@ -17,7 +15,7 @@ body {
 
 
 :root {
-    background-color:rgba(128, 102, 102, 0.8);
+    background-color: rgba(128, 102, 102, 0.8);
 }
 
 p {
@@ -37,12 +35,12 @@ p {
 }
 
 .gary {
-padding:1em;
+    padding: 1em;
 
 }
 
 .bob {
-width: 50%;
+    width: 50%;
 }
 
 section {
@@ -53,6 +51,6 @@ section {
 .iamw {
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
+    justify-content: flex-end;
     width: 50%;
 }
