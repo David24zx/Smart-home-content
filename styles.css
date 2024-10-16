@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+p {
+    font-size: larger;
+}
+
 img {
     max-width: 100%;
 
@@ -138,34 +142,39 @@ body {
 
 .bald {
     background-color: rgba(128, 102, 102, 0.8);
-    padding: 2.3em;
+    padding: 2.87em;
     color: rgb(0, 0, 0);
-    font-size: large;
     display: flex;
     flex-direction: row-reverse;
-}
-
-.large-text {
-    background-color: rgba(128, 102, 102, 0.8);
-    padding: 2.3em;
-    color: rgb(0, 0, 0);
-    font-size: medium;
 }
 
 .jimmy {
     background-color: rgba(128, 102, 102, 0.8);
     padding: 2.3em;
     color: rgb(0, 0, 0);
-    font-size: medium;
 }
 
 .jerm {
     background-color: rgba(128, 102, 102, 0.8);
-    padding: 2.3em;
+    padding: 2.5em;
     color: rgb(0, 0, 0);
-    font-size: medium;
 }
 
+.uber {
+    display: flex;
+    align-items: flex-start;
+}
+
+.uber img {
+    margin-right: 15px;
+    margin-top: 5px;
+    width: 35rem;
+    height: auto;
+}
+
+.uber p {
+    max-width: 600px;
+}
 
 .image-right {
     width: 40vh;
@@ -281,9 +290,8 @@ section.section-head {
 
 .herbert {
     background-color: rgba(128, 102, 102, 0.8);
-    padding: 2.0em;
+    padding: 5.0em;
     color: rgb(0, 0, 0);
-    font-size: large;
 }
 
 
@@ -372,7 +380,6 @@ section.section-head {
     border-width: 2px 2px;
     margin-right: auto;
     margin-left: 33em;
-    font-size: medium;
 }
 
 .arrow {
